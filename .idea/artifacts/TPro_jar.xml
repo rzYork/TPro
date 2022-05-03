@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="TPro:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TPro_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TPro.jar">
+        <element id="module-output" name="TPro" />
+      </element>
+      <element id="library" level="project" name="Depend" />
+    </root>
+  </artifact>
+</component>

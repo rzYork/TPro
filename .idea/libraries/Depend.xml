@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Depend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lib/MagicSpells-4.0-Beta-10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/MythicMobs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/NShowHotkey-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/spigot-1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/SX-Attribute.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/PlaceholderAPI-2.10.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../lib/spigot-1.16.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>

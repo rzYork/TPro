@@ -1,0 +1,90 @@
+default:
+  expTpLevelUp: 100
+  maxLevel: 60
+
+
+pros:
+  warrior:
+    skills:
+      skill1: ms cast self -p:1.0 skill_xx
+      skill2: ms cast self -p:2.0 skill_xx2
+    levels:
+      '1':
+        exp: 100
+        award:
+          - givemoney %player% 100
+    sub:
+      warrior_1:
+        sub:
+          warrior_2:
+            levels:
+              '1':
+                exp: 28
+                award:
+                  - givemoney %player% 10000
+            item:
+              - '{v=2586, type=GHAST_TEAR}'
+        levels:
+          '1':
+            exp: 30
+            award:
+              - givemoney %player% 1000
+        item:
+          - '{v=2586, type=POLISHED_ANDESITE}'
+      warrior_3:
+        levels:
+          '1':
+            exp: 20
+            award:
+              - givemoney %player% 10000
+              - say %player% 10000
+    item:
+      - '{v=2586, type=LEATHER_HELMET}'
+      - '{v=2586, type=LEATHER_CHESTPLATE}'
+      - '{v=2586, type=LEATHER_LEGGINGS}'
+      - '{v=2586, type=LEATHER_BOOTS}'
+  archer:
+    levels:
+      '1':
+        exp: 120
+        award:
+          - givemoney %player% 100
+    sub:
+      archer_1:
+        levels:
+          '1':
+            exp: 230
+            award:
+              - givemoney %player% 1000
+        item:
+          - '{v=2586, type=ARROW}'
+    item:
+      - '{v=2586, type=CHAINMAIL_HELMET}'
+      - '{v=2586, type=CHAINMAIL_CHESTPLATE}'
+      - '{v=2586, type=CHAINMAIL_LEGGINGS}'
+      - '{v=2586, type=CHAINMAIL_BOOTS}'
+  mage:
+    levels:
+      '1':
+        exp: 200
+        award:
+          - givemoney %player% 100
+    sub:
+      mage_1:
+        levels:
+          '1':
+            exp: 2000
+            award:
+              - givemoney %player% 1000
+        item:
+          - '{v=2586, type=GOLDEN_CHESTPLATE}'
+display:
+  warrior: '战士'
+  archer: '弓箭手'
+  mage: '法师'
+  archer_1: '月光弓箭手'
+  warrior_1: '进阶战士'
+  mage_1: '黑暗法师'
+  warrior_2: '终极战士'
+  warrior_3: '狂战士'
+

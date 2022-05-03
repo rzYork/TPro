@@ -1,0 +1,33 @@
+name: TPro
+main: com.tracer.TPro
+version: 1.0
+author: Tracer
+commands:
+  tpro:
+    usage: /<command> help -- TO GET HELP
+    description: TPro Plugin Designed by Tracer
+    permission: TPro.use
+    permission-message: You have no permission to use this.
+permissions:
+  tpro.use:
+    default: true
+  tpro.bind:
+    default: op
+  tpro.exp:
+    default: op
+  tpro.giveexp:
+    default: op
+  tpro.skill:
+    default: true
+  tpro.pro:
+    default: op
+  tpro.reload:
+    default: op
+  tpro.see:
+    default: op
+  tpro.unbind:
+    default: op
+depend:
+  - Vault
+  - PlaceholderAPI
+  - TPVP

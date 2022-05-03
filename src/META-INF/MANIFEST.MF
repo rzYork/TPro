@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: MagicSpells-4.0-Beta-10.jar MythicMobs.jar NShowHotkey-1.1.j
+ ar PlaceholderAPI-2.11.1.jar spigot-1.16.5.jar SX-Attribute.jar Vault.j
+ ar
+
